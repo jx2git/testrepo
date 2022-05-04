@@ -46,7 +46,9 @@ read input
 
 # Committing to the local repository with a message containing the time details and commit text
 
-git commit -S -m "$input"
+#git commit -S -m "$input"  # Signing and commiting
+
+git commit -m "$input" # Commits only
 
 # Push the local files to github
 
